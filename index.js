@@ -5,7 +5,6 @@ const contactRoutes = require("./routes/contactRoutes");
 const TestimonialRoutes = require("./routes/TestimonialRoutes");
 
 const app = express();
-const path = require("path");
 
 app.use(express.json());
 app.use(cors());
