@@ -14,8 +14,8 @@ app.post('/',(req, res) => {
     port: 465,
     secure:true,
     auth: {
-      user: process.env.user,
-      pass: process.env.pass,
+      user: process.env.EMAIL,
+      pass: process.env.PASS,
     },
   });
   var mailOptions = {
