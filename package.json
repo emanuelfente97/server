@@ -6,16 +6,25 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js"
-
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
     "express": "^4.17.2",
+    "nodemailer": "^6.7.2",
     "nodemon": "^2.0.15"
   },
-  "devDependencies": {},
   "keywords": [],
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emanuelfente97/server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emanuelfente97/server/issues"
+  },
+  "homepage": "https://github.com/emanuelfente97/server#readme",
   "description": ""
 }
