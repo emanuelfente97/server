@@ -3,7 +3,7 @@ const nodemailer = require('nodemailer');
 const app = express.Router();
 require('dotenv').config();
 
-app.get('/',(req, res) => res.send({ msg: 'send conact using POST' }));
+app.get('/',(req, res) => res.send({ msg: 'send contact using POST' }));
 
 app.post('/',(req, res) => {
   const { name, email, message, subject } = req.body;

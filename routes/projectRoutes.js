@@ -42,7 +42,7 @@ let projects = [
       github: "https://github.com/emanuelfente97/CRUD-Operation.git",
       netlifyLink: "https://stoic-hugle-0f4bad.netlify.app",
       image: "https://i.postimg.cc/vZkBxn5b/CRUDE.png",
-      netImg: "@/assets/netlify-icon.svg",
+      netImg: "https://i.postimg.cc/pLJm4rjH/netlify-icon.png",
     },
     {
       title: "Timer",
