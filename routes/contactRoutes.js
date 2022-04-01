@@ -20,7 +20,7 @@ app.post('/',(req, res) => {
   });
   var mailOptions = {
     from: email,
-    to: 'emanuuelfente97@gmail.com',
+    to: 'emanuelfente97@gmail.com',
     subject: `${subject}`,
     text: `${name} has messaged you saying: ${message}`,
   };
